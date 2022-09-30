@@ -18,7 +18,7 @@ def sortedSquares(nums):
 #         for j in range(1,len(nums)):
 #             (n,nums[j]) = (nums[j],n)
 
-#Better one
+# Better one
 # def rotate(self, nums, k):
 #     m=[0] * len(nums)
 #     for i in range(len(nums)):
@@ -33,7 +33,7 @@ def rev(m, i, j):
         i+=1
         j-=1
 
-#The best solution
+# The best solution
 def rotate(self, nums, k):
     if k > len(nums):k%=len(nums)
     rev(nums,0,len(nums)-1)
